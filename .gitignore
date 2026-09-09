@@ -6,9 +6,7 @@
 
 # Runtime artifacts (tokens are secrets — never commit)
 gemini-cookies.json
-gemini-cookies.json
 gemini-cookies-cache.json
-gemini-tokens.json
 tokens.sqlite
 .env
 
