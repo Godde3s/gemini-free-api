@@ -1,15 +1,14 @@
 # Built binaries (anchored to the repo root so they never shadow source dirs)
-/qwen-api
-/qwen-api.exe
-/qwen-api-*
-/qwen-login
-/qwen-bx
-/qwen-bx.exe
-/qwen-login.exe
+/gemini-api
+/gemini-api.exe
+/gemini-api-*
+/gemini-login
 
 # Runtime artifacts (tokens are secrets — never commit)
-qwen-tokens.json
-qwen-bx.json
+gemini-cookies.json
+gemini-cookies.json
+gemini-cookies-cache.json
+gemini-tokens.json
 tokens.sqlite
 .env
 
