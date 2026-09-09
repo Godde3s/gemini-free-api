@@ -58,6 +58,7 @@ func Run() {
 
 	// ── Multi-account pool (QWEN_TOKENS > QWEN_TOKEN > guest mode) ──────
 	initAccounts()
+	startCookieHeartbeat()
 
 	gRunning.Store(true)
 
