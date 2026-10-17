@@ -140,7 +140,7 @@ docker build -t gemini-free-api . && docker run -d -p 8080:8080 -v $(pwd)/.env:/
 | `GEMINI_COOKIES` | خالی | کوکی اکانت‌ها (سه فرمت — بالا را ببینید). خالی = حالت مهمان |
 | `GEMINI_COOKIES_FILE` | `gemini-cookies.json` | فایل کوکی‌ها (خروجی `gemini-login`) |
 | `PORT` / `HOST` | `8080` / `0.0.0.0` | سرور |
-| `AUTH_TOKEN` | `gemini` | کلید کلاینت‌ها |
+| `AUTH_TOKEN` | *(تصادفی هر اجرا)* | کلید کلاینت‌ها — در لاگ استارتاپ چاپ می‌شود |
 | `THINKING` | `true` | پیش‌فرض استریم reasoning |
 | `AGENT_MODE` | `false` | ترجمه ابزار برای ایجنت‌ها |
 | `ACCOUNT_COOLDOWN_BASE` | `120` | اولین cooldown روی 429 (ثانیه، نمایی ×۲) |
